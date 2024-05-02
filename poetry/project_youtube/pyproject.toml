@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "project-youtube"
+version = "0.1.0"
+description = ""
+authors = ["sadafwalliyani <sadafwalliyani@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+pytest = "^8.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
